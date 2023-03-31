@@ -1,0 +1,36 @@
+
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "electron-store": "^8.1.0",
+    "openai": "^3.2.1"
+  },
+  "name": "appweather",
+  "version": "0.1.0-alpha.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Avalon",
+    "email": "andryjavier75@gmail.com",
+    "url": "github.com/FZAvalon"
+  },
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^23.2.0",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "github.com/FZAvalon",
+    "productName": "WeatherApp",
+    "icon": "src/images/icon.ico" 
+  }
+ 
+}
+
